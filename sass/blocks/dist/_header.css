@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Medium";
+  src: url("sass/fonts/Gilroy-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bold";
+  src: url("sass/fonts/Gilroy-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  font-family: "Medium", sans-serif;
+  background-color: #2C2C54;
+  color: #FFFFFF;
+  padding-top: 25px;
+  padding-left: 116px;
+  padding-right: 122px;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-image: url("img/Frame 138.png"), url("img/Frame 137.png"), url("img/Vecto3r.png"), url("img/Vector324.png");
+  background-position: 100% 0%, 0% 24%, 0% 74%, 0% 88%;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.container {
+  max-width: 1660px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-bottom: 63px;
+  display: grid;
+  grid-template-columns: 31% 37% 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 250px;
+  height: 160px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 118px;
+  list-style: none;
+}
+.nav__option a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 25px;
+  transition: color 0.3s ease;
+}
+.nav__option a:hover {
+  color: #686DE0;
+}
+.nav__vector {
+  display: flex;
+  justify-content: end;
+}
+.nav__vector:hover {
+  cursor: pointer;
+}
+.nav__img {
+  width: auto;
+}
+.nav__img1 {
+  padding-right: 30px;
+  width: auto;
+}
+.nav__icons {
+  display: flex;
+  gap: 20px;
+}
+.nav__icons img {
+  width: 32px;
+  height: 31px;
+}
+
+.nav_option a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 25px;
+  transition: color 0.3s ease;
+}
+.nav_option a:hover {
+  color: #686DE0;
+}

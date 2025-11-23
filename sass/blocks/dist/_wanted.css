@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Medium";
+  src: url("styles/fonts/Gilroy-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bold";
+  src: url("styles/fonts/Gilroy-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+.wanted {
+  padding-right: 30px;
+  padding-left: 38px;
+}
+.wanted__inner {
+  padding-bottom: 225px;
+}
+.wanted__title {
+  font-family: "bold", sans-serif;
+  text-align: right;
+  font-size: 50px;
+  margin: 0px;
+  padding-bottom: 40px;
+}
+.wanted__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 420px);
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.wanted__card {
+  background: #2C2C54;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0px 20px 5px rgba(201, 201, 201, 0.2);
+}
+.wanted__poster {
+  padding-top: 30px;
+  margin-bottom: 26px;
+}
+.wanted__poster img {
+  border-radius: 30px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.wanted__full__list {
+  display: flex;
+  justify-content: flex-end;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-right: -5px;
+}
+.wanted__btn {
+  font-family: "bold", sans-serif;
+  font-size: 25px;
+  align-self: center;
+  background: #686DE0;
+  color: #2C2C54;
+  border-radius: 5px;
+  padding: 17.75px 94.5px 17.25px 95.87px;
+  margin-bottom: 35px;
+  cursor: pointer;
+  transition: transform 0.14s ease, box-shadow 0.14s ease;
+  box-shadow: 0 6px 18px rgba(124, 115, 255, 0.18), inset 0 -2px 2px rgba(0, 0, 0, 0.12);
+}
+.wanted__btn:hover {
+  color: #404084;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 14px rgba(144, 119, 175, 0.25);
+}
+
+.watch__btn:hover {
+  background-color: #737AE8;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 14px rgba(144, 119, 175, 0.25);
+}
+
+.full__list {
+  color: #FFFFFF;
+  text-decoration: underline;
+  float: right;
+  font-size: 20px;
+}
+.full__list:hover {
+  color: #737AE8;
+}
+
+.container__header {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

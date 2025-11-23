@@ -1,0 +1,34 @@
+$color-primary: #2C2C54;
+$color-primary-hover:#404084;
+$color-secondary: #686DE0;
+$color-accent: #737AE8;
+$color-accent-hover: #7A74FF;
+$color-white: #FFFFFF;
+$color-text-light: #F3F2FB;
+$color-text-gray: #D6D4EC;
+$color-text-placeholder: #9E9E9E;
+$color-bg-light: #F5F5F5;
+$color-bg-dark: #000000;
+$color-link: #9b8eff;
+$color-disclaimer: #B0AEC5;
+
+$font-medium: 'Medium', sans-serif;
+$font-bold: 'bold', sans-serif;
+
+$transition-base: 0.3s ease;
+$transition-card: 0.14s ease;
+
+@font-face {
+  font-family: 'Medium';
+  src: url('../sass/fonts/Gilroy-medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url('../sass/fonts/Gilroy-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+

@@ -1,0 +1,65 @@
+@import 'vars';
+
+.section__title {
+  align-self: flex-start;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 46px;
+}
+
+.popular {
+  &__card {
+    display: flex;
+    flex-direction: column;
+    background: $color-primary;
+    border-radius: 16px;
+    padding: 30px 98px 28px;
+    box-shadow: 0 10px 30px rgba(201, 201, 201, 0.20);
+  }
+
+  &__image {
+    border-radius: 12px;
+    margin-bottom: 25px;
+  }
+
+  &__btn {
+    align-self: center;
+    width: 95%;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    background: $color-accent;
+    font-family: $font-bold;
+    color: $color-primary;
+    border-radius: 5px;
+    font-size: 25px;
+
+    &:active {
+      transform: translateY(1px);
+    }
+
+    &:hover {
+      transition: 0.5s;
+      box-shadow: 0 10px 14px rgba(144, 119, 175, 0.25);
+      transform: translateY(-1px);
+      color: $color-primary-hover;
+      cursor: pointer;
+      background-color: #7e76ff;
+    }
+  }
+}
+.container__best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.best-movie {
+  margin-bottom: 220px;
+
+  &__title {
+    font-family: $font-bold;
+    align-self: start;
+    justify-content: flex-start;
+    justify-self: flex-start;
+    align-items: start;
+  }
+}

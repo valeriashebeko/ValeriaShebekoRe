@@ -1,0 +1,226 @@
+@import 'vars';
+
+.forum-section {
+  margin-bottom: 110px;
+}
+
+.forum {
+  &__header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 108px;
+    justify-content: space-between;
+  }
+&__container
+{
+  margin: auto;
+  padding-left: 0px;
+  padding-right:  0px;
+  margin-left: -5px;
+}
+  &__title {
+    font-size: 50px;
+    font-weight: 700;
+    color: $color-white;
+    font-family: $font-bold;
+  }
+
+  &__all {
+    align-self: center;
+    align-items: end;
+    padding-top: 10px;
+    color: $color-white;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+
+  &__grid-top {
+    display: grid;
+    grid-template-columns: 967fr 680fr;
+    gap: 14px;
+    align-items: start;
+    margin-bottom: 96px;
+  }
+
+  &__grid-bottom {
+    display: grid;
+    grid-template-columns: 690fr 937fr;
+    gap: 50px;
+    align-items: start;
+  }
+  &__cardd{
+    background-color: $color-primary;
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 18px;
+    border-radius: 20px;
+    box-shadow: 0;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    transition: transform $transition-card, box-shadow $transition-card;
+        &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 26px 48px rgba(6, 5, 18, 0.7);
+    }
+  }
+  &__card {
+    background-color: $color-primary;
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: 0;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    transition: transform $transition-card, box-shadow $transition-card;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 26px 48px rgba(6, 5, 18, 0.7);
+    }
+
+    &--rev,
+    &-rev {
+      padding-bottom: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      display: grid;
+      background: $color-primary;
+      border-radius: 20px;
+      box-shadow: 0;
+      border: 1px solid rgba(255, 255, 255, 0.03);
+      transition: transform $transition-card, box-shadow $transition-card;
+
+      &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 26px 48px rgba(6, 5, 18, 0.7);
+      }
+    }
+
+    &-media {
+      overflow: hidden;
+      border-radius: 10px 0px  0px 10px;
+      background: $color-bg-dark;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 97%;
+
+      img {
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        height: 306px;
+      }
+    }
+
+    &-body {
+      padding-top: 32px;
+      padding-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &-2 {
+        padding-left: 25px;
+        padding-top:   47px;
+        padding-bottom: 43px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      &-3 {
+        padding-left: 35px;
+        padding-top:   47px;
+        padding-bottom: 43px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      &-4 {
+        padding-top: 33px;
+      }
+    }
+
+    &-title {
+      font-family: $font-bold;
+      margin-top: 0px;
+      margin-bottom: 15px;
+      font-size: 25px;
+      font-weight: 700;
+      color: $color-white;
+
+      &-2 {
+        font-family: $font-bold;
+        margin-top: 0px;
+        margin-bottom: 23px;
+        font-size: 25px;
+        font-weight: 700;
+        color: $color-white;
+      }
+    }
+
+    &-excerpt {
+      padding-right: 94px;
+      margin: 0px;
+      color: $color-white;
+      font-size: 20px;
+      line-height: 130%;
+      padding-bottom: 102px;
+
+      &-2 {
+        padding-right: 10px;
+        margin: 0px;
+        padding-bottom: 61px;
+        color: $color-white;
+        font-size: 20px;
+        line-height: 130%;
+      }
+    }
+
+    &-more {
+      color: $color-secondary;
+      text-decoration: none;
+      font-size: 20px;
+      justify-self: start;
+    }
+  }
+}
+
+.card {
+  &__media {
+    border-radius: 20px;
+    background: $color-bg-dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+
+    img {
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: $color-white;
+  }
+
+  &__excerpt {
+    color: $color-white;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  &__more {
+    color: $color-secondary;
+    text-decoration: underline;
+    font-size: 20px;
+    justify-self: start;
+  }
+}
