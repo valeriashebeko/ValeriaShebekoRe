@@ -1,0 +1,85 @@
+@import 'vars';
+
+
+.membership {
+  &__inner {
+    display: flex;
+    margin-bottom: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  &__text {
+    font-size: 25px;
+    line-height: 130%;
+    color: $color-white;
+    margin: 0 0 25px 0;
+    max-width: 757px;
+  }
+
+  &__price {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  &__form {
+    display: flex;
+    gap: 0;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 68.75rem;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  &__input {
+    flex: 1;
+    padding: 24px 59px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    background-color: $color-bg-light;
+    font-size: 25px;
+    outline: none;
+
+    &::placeholder {
+      color: $color-text-placeholder;
+    }
+  }
+
+  &__btn {
+    width: 16.25rem;
+    padding: 22px 32px;
+    background-color: $color-accent;
+    color: $color-primary;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color $transition-base;
+    margin-left: -30px;
+    flex-shrink: 0;
+
+    &:hover {
+      background-color: $color-accent-hover;
+    }
+  }
+
+  &__disclaimer {
+    font-size: 16px;
+    color: $color-disclaimer;
+    margin: 0;
+  }
+
+  &__link {
+    color: $color-link;
+    text-decoration: none;
+    transition: color $transition-base;
+
+    &:hover {
+      color: $color-accent;
+      text-decoration: underline;
+    }
+  }
+}

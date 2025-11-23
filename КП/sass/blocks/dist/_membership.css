@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Medium";
+  src: url("styles/fonts/Gilroy-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bold";
+  src: url("styles/fonts/Gilroy-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+.membership__inner {
+  display: flex;
+  margin-bottom: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+.membership__text {
+  font-size: 25px;
+  line-height: 130%;
+  color: #FFFFFF;
+  margin: 0 0 25px 0;
+  max-width: 757px;
+}
+.membership__price {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.membership__form {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 68.75rem;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.membership__input {
+  flex: 1;
+  padding: 24px 59px;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  background-color: #F5F5F5;
+  font-size: 25px;
+  outline: none;
+}
+.membership__input::placeholder {
+  color: #9E9E9E;
+}
+.membership__btn {
+  width: 16.25rem;
+  padding: 22px 32px;
+  background-color: #737AE8;
+  color: #2C2C54;
+  border: none;
+  border-radius: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: -30px;
+  flex-shrink: 0;
+}
+.membership__btn:hover {
+  background-color: #7A74FF;
+}
+.membership__disclaimer {
+  font-size: 16px;
+  color: #B0AEC5;
+  margin: 0;
+}
+.membership__link {
+  color: #9b8eff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.membership__link:hover {
+  color: #737AE8;
+  text-decoration: underline;
+}
