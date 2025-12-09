@@ -517,6 +517,7 @@ h2 {
   box-shadow: 0 26px 48px rgba(6, 5, 18, 0.7);
 }
 .forum__card--rev, .forum__card-rev {
+  height:100%;
   padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
