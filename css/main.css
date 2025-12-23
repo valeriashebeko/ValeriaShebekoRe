@@ -1147,8 +1147,7 @@ h2 {
     font-size: 20px;
   }
   .news__feature-img {
-    width: 100%;
-    align-self: flex-start;
+    display:none;
   }
   .news__thumb {
     width: 20%;
@@ -1509,3 +1508,4 @@ h2 {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
+
