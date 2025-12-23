@@ -525,6 +525,7 @@ h2 {
   align-items: start;
 }
 .forum__cardd {
+   height: 100%;
   background-color: #2C2C54;
   display: grid;
   grid-template-columns: 380px 1fr;
@@ -1512,6 +1513,7 @@ h2 {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
+
 
 
 
