@@ -1198,6 +1198,9 @@ h2 {
             flex-direction: column;
             padding: 1px;
     }
+  main__content {
+    margin:0px;
+  }
     .header {
       grid-template-columns: 30% 70%;
     }
@@ -1509,6 +1512,7 @@ h2 {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
+
 
 
 
